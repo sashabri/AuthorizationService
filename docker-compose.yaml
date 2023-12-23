@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  docker_demo:
+    build: '/.'
+    ports:
+      - '8080:8080'
